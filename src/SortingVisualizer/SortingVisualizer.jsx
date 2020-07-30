@@ -192,11 +192,11 @@ class SortingVisualizer extends Component {
             <button id="insertion" onClick= {() => this.insertionSort(this.state.arr,  this.state.speed)}> Insertion Sort </button>
             <div className="slidecontainer">
                 <p>Sorting Speed:</p>
-                <input id="speed" type="range" min="0" max="700" class="slider" onChange={this.changeSpeed.bind(this, 'value')}/>
+                <input id="speed" type="range" min="0" max="700" class="speedSlider" onChange={this.changeSpeed.bind(this, 'value')}/>
             </div>
             <div className="slidecontainer">
                 <p>Number of Bars:</p>
-                <input id="blockNum" type="range" min="10" max="150"  class="slider" onChange={this.changeBlockNum.bind(this, 'value')}/>
+                <input id="blockNum" type="range" min="10" max="150"  class="barSlider" onChange={this.changeBlockNum.bind(this, 'value')}/>
             </div>
             
             <div className='allBlocks'> 

@@ -43,9 +43,13 @@ button:hover {
     background-color: #114B5F;
 }
 
-.slider {
+.speedSlider {
     background: #028090;
     transform: scaleX(-1);
+}
+
+.barSlider {
+    background: #028090;
 }
 
 input[type=range] {
