@@ -9,10 +9,9 @@
 
 .block {
     flex-grow: 1;
-    transform: scaleY(-1);
     background-color: #028090;
     display: inline-block;
-    margin: 1px;    
+    margin: 1px;
 }
 
 header {
@@ -46,6 +45,7 @@ button:hover {
 
 .slider {
     background: #028090;
+    transform: scaleX(-1);
 }
 
 input[type=range] {
